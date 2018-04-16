@@ -3,15 +3,10 @@
    source /etc/vimrc
 :endif
 
-" Include Arista-specific settings
-:if filereadable( $VIM . "/vimfiles/arista.vim" )
-   source $VIM/vimfiles/arista.vim
-:endif
-
-" Put your own customizations below
+" Own customizations
 :set tabstop=8
 :set expandtab
-:set shiftwidth=4
+:set shiftwidth=8
 :set autoindent
 :set smartindent
 :set cindent
